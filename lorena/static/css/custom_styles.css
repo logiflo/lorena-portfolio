@@ -1,0 +1,11 @@
+@charset 'UTF-8';
+
+.project-img {
+    width: 200px !important;
+    margin-right: 20px;
+}
+
+.interest-custom {
+    width: 30px !important;
+    margin-right: 5px;
+}
