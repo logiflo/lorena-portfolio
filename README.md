@@ -9,16 +9,34 @@ A Django based personal portfolio website.
 # Run On Your Machine?
 
 1. Firstly, clone the repository using the git shell <br>
-<code>$ git clone https://github.com/logiflo/lorena-portfolio.git</code> <br>
+```bash
+$ git clone https://github.com/logiflo/lorena-portfolio.git
+```
 2. Go to the base directory of the project <br>
-<code>cd portfolio </code> <br>
+```bash
+cd portfolio
+```
 3. Create a virtual environment and activate it. <br>
-<code>$ virtualenv venv</code> <br>
-<code>$ venv\Scripts\activate</code> on Windows or <code>$ source venv/bin/activate</code> on Posix system <br>
-4. Install the requirements for the project <br>
-<code>$ pip install -r requirements.txt</code>  <br>
-5. Now start the localhost server<br>
-<code>$ python manage.py runserver</code> <br>
+```bash
+$ virtualenv venv
+```
+Windows:
+```bash
+$ venv\Scripts\activate
+```
+Posix system:
+```bash
+$ source venv/bin/activate
+```
+
+4. Install the requirements for the project
+```bash
+$ pip install -r requirements.txt
+```
+5. Now start the localhost server
+```bash
+$ python3 manage.py runserver
+```
 
 # Live Example
 [Portfolio](https://lorenagil-portfolio.herokuapp.com)
